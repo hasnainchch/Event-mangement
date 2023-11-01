@@ -1,0 +1,13 @@
+
+ 
+ #stats li
+ {
+   display: inline-flex;
+   list-style-type: none;
+   padding-right: 100px;
+   float: left;
+
+
+}
+   
+ 
