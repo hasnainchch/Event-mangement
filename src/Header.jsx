@@ -3,14 +3,16 @@ import { Link } from "react-router-dom";
 function Header(){
  
     return(
-     <>
-   <div className='container bg-info ' >
-    <h3 className='d-flex justify-content-center'>Event Website</h3>
-    <ul id='stats'   >
-        <li style={{width:'20%'}}><img src='https://images.unsplash.com/photo-1541963463532-d68292c34b19?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8fA%3D%3D&w=1000&q=80' alt='hello' width={40} height={30}></img></li>
-
+    
+   
+   <div className="header">
+            <div className="logo-contaniner">
+                <img  className="logo" src="https://www.logodesign.net/logo/smoking-burger-with-lettuce-3624ld.png?nwm=1&nws=1&industry=food&sf="  />
+            </div>
+            <div className="nav-items">
+<ul>
         <li > <Link to="./"> Home</Link></li>
-        <li > <Link to="./Counter"> Counter</Link></li>
+        <li > <Link to="./Gallery"> Gallery </Link></li>
         <li> <Link to="./aboutus"> About Us</Link></li>
         <li > <Link to="./services"> Services</Link></li>
         <li > <Link to="./Userlogin"> Login</Link></li>
@@ -19,8 +21,9 @@ function Header(){
        
     </ul>
    </div>
-   </>
-    );
+   </div>
    
-     }
+    )
+   
+     };
      export default Header;
