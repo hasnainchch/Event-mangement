@@ -27,7 +27,7 @@ const Userlogin = () => {
           <label for="password">Password:</label>
           <input type="password" id="password" onChange={(e) => setb(e.target.value)}  g={  password } placeholder="Enter your password" required />
         </div>
-        <button onClick={submitForm}>Login</button>
+        <button onClick={submitForm}> <b> Login </b></button>
 
         {email}<br />
         {password}
@@ -42,4 +42,4 @@ const Userlogin = () => {
   )
 }
 
-export default Userlogin
+export default Userlogin;
